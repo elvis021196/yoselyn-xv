@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section className="relative isolate flex min-h-[100svh] items-center justify-center overflow-hidden bg-[#080504] px-5 pt-[calc(env(safe-area-inset-top)+1rem)] pb-[calc(env(safe-area-inset-bottom)+1rem)] text-center sm:min-h-[42rem] sm:px-10 sm:py-12" aria-labelledby="hero-title">
       <Image
-        src="/images/portada-yoselyn.png.png"
+        src="/images/portada-yoselyn.png"
         alt="Yoselyn durante su celebración de quince años"
         fill
         priority

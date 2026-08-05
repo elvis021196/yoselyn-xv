@@ -3,13 +3,14 @@ import { DressCodeSection } from "@/components/DressCodeSection";
 import { EventDateSection } from "@/components/EventDateSection";
 import { FinalSection } from "@/components/FinalSection";
 import { HeroSection } from "@/components/HeroSection";
+import { InvitationExperience } from "@/components/InvitationExperience";
 import { LocationSection } from "@/components/LocationSection";
 import { RsvpSection } from "@/components/RsvpSection";
 import { WelcomeSection } from "@/components/WelcomeSection";
 
 export default function Home() {
   return (
-    <main>
+    <InvitationExperience>
       <HeroSection />
       <WelcomeSection />
       <CountdownSection />
@@ -18,6 +19,6 @@ export default function Home() {
       <DressCodeSection />
       <RsvpSection />
       <FinalSection />
-    </main>
+    </InvitationExperience>
   );
 }
